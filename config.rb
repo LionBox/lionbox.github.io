@@ -2,7 +2,7 @@
 # Blog settings
 ###
 
-# Time.zone = "UTC"
+Time.zone = "Europe/London"
 
 activate :blog do |blog|
   # This will add a prefix to all links, template references and source paths
@@ -31,7 +31,7 @@ end
 
 set :casper, {
   blog: {
-    url: 'http://www.example.com',
+    url: 'http://www.lionbox.github.io',
     name: 'LionBox',
     description: 'This website is under construction',
     date_format: '%d %B %Y',
