@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>LionBox</title>
-  <subtitle>This website is under construction</subtitle>
+  <title>LionBox: Test</title>
+  <subtitle>Posts tagged with Test</subtitle>
   <id>http://www.lionbox.github.io</id>
   <link href="http://www.lionbox.github.io"/>
-  <link href="http://www.lionbox.github.io/feed.xml" rel="self"/>
+  <link href="http://www.lionbox.github.io/tag/test/feed.xml" rel="self"/>
   <updated>2015-01-26T00:00:00+00:00</updated>
   <author>
     <name>LionBox</name>
@@ -29,22 +29,5 @@
  1 
  $ middleman 
  </summary>
-  </entry>
-  <entry>
-    <title>Welcome to Ghost</title>
-    <link rel="alternate" href="http://www.lionbox.github.io/2013/10/26/welcome-to-ghost/"/>
-    <id>http://www.lionbox.github.io/2013/10/26/welcome-to-ghost/</id>
-    <published>2013-10-26T00:00:00+01:00</published>
-    <updated>2015-01-22T11:52:50+00:00</updated>
-    <author>
-      <name>LionBox</name>
-    </author>
-    <summary type="html"> You’re in! Nice. We’ve put together a little post to introduce you to the Ghost
-editor and get you started. Go ahead and edit this post to get going and learn
-how it all works! 
-
- Getting Started 
-
- Writing in markdown is really easy. In the left hand panel </summary>
   </entry>
 </feed>
