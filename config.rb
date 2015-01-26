@@ -32,15 +32,15 @@ end
 set :casper, {
   blog: {
     url: 'http://www.example.com',
-    name: 'Middleman',
-    description: 'Makes developing websites simple.',
+    name: 'LionBox',
+    description: 'This website is under construction',
     date_format: '%d %B %Y',
     logo: nil # Optional
   },
   author: {
-    name: 'Middleman',
-    bio: 'Middleman is a static site generator using all the ' \
-         'shortcuts and tools in modern web development.',
+    name: 'LionBox',
+    bio: 'LionBox is a company! ' \
+         '',
     location: nil, # Optional
     website: nil, # Optional
     gravatar_email: nil # Optional
