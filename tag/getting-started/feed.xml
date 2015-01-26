@@ -2,17 +2,17 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>LionBox: Getting Started</title>
   <subtitle>Posts tagged with Getting Started</subtitle>
-  <id>http://www.example.com</id>
-  <link href="http://www.example.com"/>
-  <link href="http://www.example.com/tag/getting-started/feed.xml" rel="self"/>
-  <updated>2015-01-26T15:38:00+00:00</updated>
+  <id>http://www.lionbox.github.io</id>
+  <link href="http://www.lionbox.github.io"/>
+  <link href="http://www.lionbox.github.io/tag/getting-started/feed.xml" rel="self"/>
+  <updated>2013-10-26T00:00:00+01:00</updated>
   <author>
     <name>LionBox</name>
   </author>
   <entry>
     <title>Welcome to Ghost</title>
-    <link rel="alternate" href="http://www.example.com/2013/10/26/welcome-to-ghost/"/>
-    <id>http://www.example.com/2013/10/26/welcome-to-ghost/</id>
+    <link rel="alternate" href="http://www.lionbox.github.io/2013/10/26/welcome-to-ghost/"/>
+    <id>http://www.lionbox.github.io/2013/10/26/welcome-to-ghost/</id>
     <published>2013-10-26T00:00:00+01:00</published>
     <updated>2015-01-22T11:52:50+00:00</updated>
     <author>
