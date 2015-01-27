@@ -68,9 +68,19 @@ end
 ###
 
 # Change Compass configuration
-# compass_config do |config|
-#   config.output_style = :compact
-# end
+compass_config do |config|
+  # Require any additional compass plugins here.
+  config.add_import_path "bower_components"
+
+  # Set this to the root of your project when deployed:
+  config.http_path = "/"
+  config.css_dir = "assets/stylesheets"
+  config.sass_dir = "assets/stylesheets"
+  config.fonts_dir = "assets/fonts"
+  config.images_dir = "assets/images"
+  config.javascripts_dir = "assets/javascripts"
+end
+
 
 ###
 # Page options, layouts, aliases and proxies
@@ -119,13 +129,13 @@ activate :syntax, line_numbers: true
 #   end
 # end
 
-set :css_dir, 'stylesheets'
+set :css_dir, 'assets/stylesheets'
 
-set :js_dir, 'javascripts'
+set :js_dir, 'assets/javascripts'
 
-set :images_dir, 'images'
+set :images_dir, 'assets/images'
 
-set :partials_dir, 'partials'
+set :partials_dir, 'layouts/partials'
 
 # Build-specific configuration
 configure :build do

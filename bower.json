@@ -1,0 +1,10 @@
+{
+  "name": "LionBox",
+  "version": "0.0.0",
+  "homepage": "https://github.com/LionBox/lionbox.github.io",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "font-awesome": "~4.2.0"
+  }
+}
