@@ -1,6 +1,34 @@
 .row
   .container
+    %br/
+    %br/
+    %br/
+    %h3 Modal Example
     %img(src="assets/images/cash.svg"){"data-target" => "#imageModal", "data-toggle" => "modal", "data-whatever" => "@mdo", :type => "button"}
+    
+    %br/
+    %br/
+    %br/
+    %h3 Font-Awesome Example
+    %i.fa.fa-connectdevelop.fa-5x
+    %i.fa.fa-spinner.fa-spin.fa-2x
+    %span.fa-stack.fa-lg
+      %i.fa.fa-square.fa-stack-2x
+      %i.fa.fa-twitter.fa-inverse.fa-stack-1x
+
+    %br/
+    %br/
+    %br/
+    %br/
+
+    %h3 Text generation
+    = lorem.sentence      # returns a single sentence
+    / = lorem.words 5       # returns 5 individual words
+    / = lorem.paragraphs 10 # returns 10 paragraphs
+    / %img{:src => " = lorem.image('300x400') ", :alt => ""}/
+    %br/
+    = lorem.email
+    = lorem.image('300x400')
     
 #imageModal.modal.fade{"aria-hidden" => "true", "aria-labelledby" => "exampleModalLabel", :role => "dialog", :tabindex => "-1"}
   .modal-dialog
@@ -12,4 +40,4 @@
         %h5 Title Image Here
         %img{:src => "assets/images/cash.svg", :width => "200px"}
       .modal-footer
-        / %i.fa.fa-camera
+        

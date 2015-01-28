@@ -2,6 +2,11 @@
 $icon-font-path: "../../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
 @import "stylesheets/bootstrap.scss";
 
+// Font-awesome
+$fa-font-path: "../..//bower_components/font-awesome/fonts";
+@import 'font-awesome/scss/font-awesome';
+
+
 @import 'vendor/casper';
 @import 'syntax';
 // @import 'font-awesome/scss/font-awesome';
@@ -20,4 +25,9 @@ pre {
 }
 .navbar{
 	margin-bottom: 0px;
+}
+
+.is-active{
+	border: 2px solid #F19100;
+	border-radius: 3px;
 }

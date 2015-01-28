@@ -38,6 +38,8 @@ activate :blog do |blog|
   # blog.month_link = "{year}/{month}.html"
   # blog.day_link = "{year}/{month}/{day}.html"
   # blog.default_extension = ".markdown"
+  
+  blog.new_article_template = "source/layouts/template-article.haml"
 
   blog.tag_template = "tag.html"
   # blog.calendar_template = "calendar.html"
@@ -114,6 +116,11 @@ end
 ###
 # Helpers
 ###
+helpers do
+  def is_page_active(page)
+    current_page.url == page ? {:class => 'is-active'} : {}
+  end
+end
 
 # Automatic image dimensions on image_tag helper
 # activate :automatic_image_sizes
@@ -125,17 +132,10 @@ activate :livereload
 activate :directory_indexes
 
 # Middleman-Syntax - https://github.com/middleman/middleman-syntax
-set :haml, { ugly: true }
+# set :haml, { ugly: true }
 set :markdown_engine, :redcarpet
 set :markdown, fenced_code_blocks: true, smartypants: true
 activate :syntax, line_numbers: true
-
-# Methods defined in the helpers block are available in templates
-# helpers do
-#   def some_helper
-#     "Helping"
-#   end
-# end
 
 set :css_dir, 'assets/stylesheets'
 
@@ -154,10 +154,10 @@ configure :build do
   # activate :minify_javascript
 
   # Enable cache buster
-  # activate :asset_hash
+  activate :asset_hash
 
   # Use relative URLs
-  # activate :relative_assets
+  activate :relative_assets
 
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
