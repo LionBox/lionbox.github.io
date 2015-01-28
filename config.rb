@@ -1,4 +1,23 @@
 ###
+# Compass
+###
+
+# Change Compass configuration
+compass_config do |config|
+  # Require any additional compass plugins here.
+  # Bootstrap
+  config.add_import_path "bower_components/bootstrap-sass-official/assets"
+
+  # Set this to the root of your project when deployed:
+  config.http_path = "/"
+  config.css_dir = "assets/stylesheets"
+  config.sass_dir = "assets/stylesheets"
+  config.fonts_dir = "assets/fonts"
+  config.images_dir = "assets/images"
+  config.javascripts_dir = "assets/javascripts"
+end
+
+###
 # Blog settings
 ###
 
@@ -63,23 +82,11 @@ ready do
   proxy "/author/#{blog_author.name.parameterize}.html", '/author.html', ignore: true
 end
 
-###
-# Compass
-###
 
-# Change Compass configuration
-compass_config do |config|
-  # Require any additional compass plugins here.
-  # Bootstrap
-  config.add_import_path "bower_components/bootstrap-sass-official/assets"
-
-  # Set this to the root of your project when deployed:
-  config.http_path = "/"
-  config.css_dir = "assets/stylesheets"
-  config.sass_dir = "assets/stylesheets"
-  config.fonts_dir = "assets/fonts"
-  config.images_dir = "assets/images"
-  config.javascripts_dir = "assets/javascripts"
+# Add bower's directory to sprockets asset path
+after_configuration do
+  @bower_config = JSON.parse(IO.read("#{root}/.bowerrc"))
+  sprockets.append_path File.join "#{root}", @bower_config["directory"]
 end
 
 
