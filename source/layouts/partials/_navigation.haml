@@ -7,15 +7,17 @@
         %span.icon-bar
         %span.icon-bar
         %span.icon-bar
-      %a.navbar-brand{:href => "/"} 
-        %img{:src => "assets/images/logo.png", :width => "200px", :style => "margin-top:-20px"}/
+      %a.navbar-brand{:href => "/"}
+        %img{:src => "/assets/images/logo.png", :width => "200px", :style => "margin-top:-20px"}/
     / Collect the nav links, forms, and other content for toggling
     #bs-example-navbar-collapse-1.collapse.navbar-collapse
       %ul.nav.navbar-nav
+        %li{ is_page_active('/about/') }
+          = link_to 'About', '/about'
+        %li{ is_page_active('/articles/') }
+          = link_to 'Articles', '/articles'
         / %li.active
         /   %a{:href => "/about"} About
-        %li
-          %a{:href => "/about"} About
         %li.dropdown
           %a.dropdown-toggle{"data-toggle" => "dropdown", :href => "#"}
             Dropdown
