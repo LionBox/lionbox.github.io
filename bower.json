@@ -6,6 +6,7 @@
   "private": true,
   "dependencies": {
     "font-awesome": "~4.3.0",
-    "bootstrap-sass-official": "~3.2.0"
+    "bootstrap-sass-official": "~3.2.0",
+    "jquery.cookie#1.4.1"
   }
 }

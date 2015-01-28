@@ -30,6 +30,34 @@
     = lorem.email
     = lorem.image('300x400')
     
+    %br/
+    %br/
+    %br/
+    %br/
+
+    %h3 Background image
+    .my-background-image
+      Content here
+
+
+    %br/
+    %br/
+    %br/
+    %br/
+
+    %h3 Kudos
+    %figure.kudo.kudoable{"data-id" => "1"}
+      %a.kudobject
+        .opening
+          .circle  
+      %a.count{:href => "#kudo"}
+        %span.num 0
+        %span.txt Kudos
+
+
+
+
+    
 #imageModal.modal.fade{"aria-hidden" => "true", "aria-labelledby" => "exampleModalLabel", :role => "dialog", :tabindex => "-1"}
   .modal-dialog
     .modal-content

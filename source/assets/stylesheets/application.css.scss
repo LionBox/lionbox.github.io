@@ -8,6 +8,7 @@ $fa-font-path: "../..//bower_components/font-awesome/fonts";
 
 
 @import 'vendor/casper';
+@import 'vendor/kudos';
 @import 'syntax';
 // @import 'font-awesome/scss/font-awesome';
 
@@ -30,4 +31,17 @@ pre {
 .is-active{
 	border: 2px solid #F19100;
 	border-radius: 3px;
+}
+
+.my-background-image{
+	background-image: url("/assets/images/engine.svg");
+	height: 200px;
+	width: 360px;
+}
+
+figure.kudo {
+position: inherit; 
+right: 50%;
+margin-right: -30px;
+text-align: center;
 }
