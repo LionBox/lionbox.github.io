@@ -1,6 +1,12 @@
+// Bootstrao
+$icon-font-path: "../../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
+@import "stylesheets/bootstrap.scss";
+
 @import 'vendor/casper';
 @import 'syntax';
-@import 'font-awesome/scss/font-awesome';
+// @import 'font-awesome/scss/font-awesome';
+
+
 
 // Overwrite some styles from casper.css
 pre {
