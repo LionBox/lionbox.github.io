@@ -1,0 +1,50 @@
+{
+  "name": "bootstrap-sass",
+  "version": "3.2.0",
+  "homepage": "https://github.com/twbs/bootstrap-sass",
+  "authors": [
+    "Thomas McDonald",
+    "Tristan Harward",
+    "Peter Gumeson",
+    "Gleb Mazovetskiy"
+  ],
+  "description": "bootstrap-sass is a Sass-powered version of Bootstrap, ready to drop right into your Sass powered applications.",
+  "main": [
+    "assets/stylesheets/_bootstrap.scss",
+    "assets/fonts/bootstrap/glyphicons-halflings-regular-f3a9a3b6.eot",
+    "assets/fonts/bootstrap/glyphicons-halflings-regular-3ef91859.svg",
+    "assets/fonts/bootstrap/glyphicons-halflings-regular-aafafdc0.ttf",
+    "assets/fonts/bootstrap/glyphicons-halflings-regular-22037a34.woff",
+    "assets/javascripts/bootstrap/affix-daae3a04.js",
+    "assets/javascripts/bootstrap/alert-03718bab.js",
+    "assets/javascripts/bootstrap/button-cfd6c382.js",
+    "assets/javascripts/bootstrap/carousel-5853a8c8.js",
+    "assets/javascripts/bootstrap/collapse-a871951b.js",
+    "assets/javascripts/bootstrap/dropdown-7b9b3844.js",
+    "assets/javascripts/bootstrap/tab-83f07782.js",
+    "assets/javascripts/bootstrap/transition-49c9f9ab.js",
+    "assets/javascripts/bootstrap/scrollspy-776c1e82.js",
+    "assets/javascripts/bootstrap/modal-01a3a63f.js",
+    "assets/javascripts/bootstrap/tooltip-1840961f.js",
+    "assets/javascripts/bootstrap/popover-53d74f50.js"
+  ],
+  "keywords": [
+    "twbs",
+    "bootstrap",
+    "sass"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "lib",
+    "tasks",
+    "templates",
+    "test",
+    "*.gemspec",
+    "Rakefile",
+    "Gemfile"
+  ],
+  "dependencies": {
+    "jquery": ">= 1.9.0"
+  }
+}

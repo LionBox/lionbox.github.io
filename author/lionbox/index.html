@@ -1,111 +1,162 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>LionBox</title>
-<meta content='This website is under construction' name='description'>
-<meta charset='utf-8'>
-<meta content='width=device-width, initial-scale=1.0' name='viewport'>
-<meta content='IE=edge' http-equiv='X-UA-Compatible'>
-<meta content='True' name='HandheldFriendly'>
-<link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/feed.xml" />
-<link href="/assets/images/images/favicon.ico" rel="icon" type="image/ico" />
-<link href="/assets/stylesheets/application.css" rel="stylesheet" type="text/css" />
-<link href='//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400' rel='stylesheet' type='text/css'>
-</head>
-<body class='home-template'>
-<header class='author-head main-header no-cover'>
-<nav class='main-nav overlay clearfix'>
-<a class='back-button icon-arrow-left' href='/'>Home</a>
-<a class='subscribe-button icon-feed' href='/feed.xml'>LionBox</a>
-</nav>
-</header>
-<section class='author-profile inner'>
-<h1 class='author-title'>LionBox</h1>
-<h2 class='author-bio'>LionBox is a company! </h2>
-<div class='author-meta'>
-<span class='author-stats'>
-<i class='icon-stats'></i>
-2 posts
-</span>
-</div>
-</section>
-<main class='content' id='content' role='main'>
-<div class='extra-pagination inner'>
-<nav class='pagination' role='pagination'>
-<span class='page-number'>Page 1 of 1</span>
-</nav>
-
-</div>
-<article class='post'>
-<header class='post-header'>
-<h2 class='post-title'><a href="/2015/01/26/setting-up-a-Middleman-site-in-Github/">Setting up a Middleman site in Github</a></h2>
-</header>
-<section class='post-excerpt'>
-<p>
- Create a Github account without two verification steps. 
-
- In Github, create a repo that will be your page. username.github.io 
-
- Clone that repo into your computer using Github or SourceTree.  
-
- Init a new Middleman project. Use a template (Casper) 
- 
- 1 
- $ middleman 
- 
-<a class="read-more" href="/2015/01/26/setting-up-a-Middleman-site-in-Github/">&raquo;</a>
-</p>
-</section>
-<footer class='post-meta'>
-<a href='/author/lionbox/'>LionBox</a>
-on <a href='/tag/test/'>Test</a>
-<time class='post-date' datetime='2015-01-26'>
-26 January 2015
-</time>
-</footer>
-</article>
-<article class='post'>
-<header class='post-header'>
-<h2 class='post-title'><a href="/2013/10/26/welcome-to-ghost/">Welcome to Ghost</a></h2>
-</header>
-<section class='post-excerpt'>
-<p>
- You’re in! Nice. We’ve put together a little post to introduce you to the Ghost
-editor and get you started. Go ahead and edit this post to get going and learn
-how it all works! 
-
- Getting Started 
-
- Writing in markdown is really easy. In the left hand panel 
-<a class="read-more" href="/2013/10/26/welcome-to-ghost/">&raquo;</a>
-</p>
-</section>
-<footer class='post-meta'>
-<a href='/author/lionbox/'>LionBox</a>
-on <a href='/tag/getting-started/'>Getting Started</a>
-<time class='post-date' datetime='2013-10-26'>
-26 October 2013
-</time>
-</footer>
-</article>
-<nav class='pagination' role='pagination'>
-<span class='page-number'>Page 1 of 1</span>
-</nav>
-
-
-</main>
-
-<footer class='site-footer clearfix'>
-<section class='copyright'>
-<a href='/'>LionBox</a>
-&copy;
-2015
-</section>
-<section class='poweredby'>
-Casper theme powered by
-<a href='https://ghost.org'>Ghost</a>
-</section>
-</footer>
-<script src="/assets/javascripts/application.js" type="text/javascript"></script>
-</body>
+  <head>
+    <title>LionBox</title>
+    <meta content='This website is under construction' name='description'>
+    <meta charset='utf-8'>
+    <meta content='width=device-width, initial-scale=1.0' name='viewport'>
+    <meta content='IE=edge' http-equiv='X-UA-Compatible'>
+    <meta content='True' name='HandheldFriendly'>
+    <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/feed.xml" />
+    <link href="../../assets/images/favicon.ico" rel="icon" type="image/ico" />
+    <link href="../../assets/stylesheets/application-4ba61195.css" rel="stylesheet" type="text/css" />
+    <link href='//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400' rel='stylesheet' type='text/css'>
+  </head>
+  <body class='home-template'>
+    <nav class='navbar navbar-default' role='navigation'>
+      <div class='container-fluid'>
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class='navbar-header'>
+          <button class='navbar-toggle' data-target='#bs-example-navbar-collapse-1' data-toggle='collapse' type='button'>
+            <span class='sr-only'>Toggle navigation</span>
+            <span class='icon-bar'></span>
+            <span class='icon-bar'></span>
+            <span class='icon-bar'></span>
+          </button>
+          <a class='navbar-brand' href='/'>
+            <img src='/assets/images/logo-ab6bbc80.png' style='margin-top:-20px' width='200px'>
+          </a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class='collapse navbar-collapse' id='bs-example-navbar-collapse-1'>
+          <ul class='nav navbar-nav'>
+            <li>
+              <a href="/about">About</a>
+            </li>
+            <li>
+              <a href="/articles">Articles</a>
+            </li>
+            <!-- %li.active -->
+            <!-- %a{:href => "/about"} About -->
+            <li class='dropdown'>
+              <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+                Dropdown
+                <span class='caret'></span>
+              </a>
+              <ul class='dropdown-menu' role='menu'>
+                <li>
+                  <a href='#'>Action</a>
+                </li>
+                <li>
+                  <a href='#'>Another action</a>
+                </li>
+                <li>
+                  <a href='#'>Something else here</a>
+                </li>
+                <li class='divider'></li>
+                <li>
+                  <a href='#'>Separated link</a>
+                </li>
+                <li class='divider'></li>
+                <li>
+                  <a href='#'>One more separated link</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- = partial "header" -->
+    <header class='author-head main-header no-cover'>
+      <nav class='main-nav overlay clearfix'>
+        <a class='back-button icon-arrow-left' href='/'>Home</a>
+        <a class='subscribe-button icon-feed' href='/feed.xml'>LionBox</a>
+      </nav>
+    </header>
+    <section class='author-profile inner'>
+      <h1 class='author-title'>LionBox</h1>
+      <h2 class='author-bio'>LionBox is a company!</h2>
+      <div class='author-meta'>
+        <span class='author-stats'>
+          <i class='icon-stats'></i>
+          2 posts
+        </span>
+      </div>
+    </section>
+    <main class='content' id='content' role='main'>
+      <div class='extra-pagination inner'>
+        <nav class='pagination' role='pagination'>
+          <span class='page-number'>Page 1 of 1</span>
+        </nav>
+      </div>
+      <article class='post'>
+        <header class='post-header'>
+          <h2 class='post-title'><a href="/2015/01/26/setting-up-a-Middleman-site-in-Github/">Setting up a Middleman site in Github</a></h2>
+        </header>
+        <section class='post-excerpt'>
+          <p>
+             Create a Github account without two verification steps. 
+            
+             In Github, create a repo that will be your page. username.github.io 
+            
+             Clone that repo into your computer using Github or SourceTree.  
+            
+             Init a new Middleman project. Use a template (Casper) 
+             
+             1 
+             $ middleman
+            <a class="read-more" href="/2015/01/26/setting-up-a-Middleman-site-in-Github/">&raquo;</a>
+          </p>
+        </section>
+        <footer class='post-meta'>
+          <a href='/author/lionbox/'>LionBox</a>
+          on <a href='/tag/test/'>Test</a>
+          <time class='post-date' datetime='2015-01-26'>
+            26 January 2015
+          </time>
+        </footer>
+      </article>
+      <article class='post'>
+        <header class='post-header'>
+          <h2 class='post-title'><a href="/2013/10/26/welcome-to-ghost/">Welcome to Ghost</a></h2>
+        </header>
+        <section class='post-excerpt'>
+          <p>
+             You’re in! Nice. We’ve put together a little post to introduce you to the Ghost
+            editor and get you started. Go ahead and edit this post to get going and learn
+            how it all works! 
+            
+             Getting Started 
+            
+             Writing in markdown is really easy. In the left hand panel
+            <a class="read-more" href="/2013/10/26/welcome-to-ghost/">&raquo;</a>
+          </p>
+        </section>
+        <footer class='post-meta'>
+          <a href='/author/lionbox/'>LionBox</a>
+          on <a href='/tag/getting-started/'>Getting Started</a>
+          <time class='post-date' datetime='2013-10-26'>
+            26 October 2013
+          </time>
+        </footer>
+      </article>
+      <nav class='pagination' role='pagination'>
+        <span class='page-number'>Page 1 of 1</span>
+      </nav>
+    </main>
+    <!-- = partial "footer" -->
+    <footer class='site-footer clearfix'>
+      <section class='copyright'>
+        <a href='/'>LionBox</a>
+        &copy;
+        2015
+      </section>
+      <section class='poweredby'>
+        Casper theme powered by
+        <a href='https://ghost.org'>Ghost</a>
+      </section>
+    </footer>
+    <script src="../../assets/javascripts/all-3344c338.js" type="text/javascript"></script>
+  </body>
 </html>
