@@ -8,6 +8,9 @@ gem 'middleman-livereload', '~> 3.4.2'
 
 gem 'middleman-deploy', '~> 1.0'
 
+# For Comments Disqus
+gem "middleman-disqus"
+
 # For feed.xml.builder
 gem 'builder', '~> 3.2.2'
 

@@ -145,8 +145,21 @@ set :images_dir, 'assets/images'
 
 set :partials_dir, 'layouts/partials'
 
+# Development
+configure :development do
+  activate :disqus do |d|
+    # using a special shortname
+    d.shortname = "alvaror156"
+  end
+end
+
+
 # Build-specific configuration
 configure :build do
+  activate :disqus do |d|
+    # using a different shortname for production builds
+    d.shortname = "lionbox"
+  end
   # For example, change the Compass output style for deployment
   # activate :minify_css
 
