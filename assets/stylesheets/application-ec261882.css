@@ -10897,11 +10897,11 @@ figure {
 
 /* line 50, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/kudos.css */
 figure.kudo {
-  position: absolute;
-  right: 50%;
-  margin-right: -30px;
-  top: 30px;
-  text-align: center; }
+  /*	position: absolute;
+  	right: 50%;
+  	margin-right: -30px;
+  	top: 30px;
+  	text-align:center;*/ }
 
 /*figure.kudo article a.kudobject p{text-align:center;display:block;margin:0;padding:0;line-height:50px;width:auto;height:auto}*/
 /* line 59, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/kudos.css */
@@ -12419,33 +12419,34 @@ pre {
   padding: initial; }
 
 /* line 29, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/application.css.scss */
+td.gutter.gl {
+  display: none; }
+
+/* line 32, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/application.css.scss */
 .navbar-brand {
   line-height: 35px; }
   @media only screen and (max-width: 768px) {
-    /* line 29, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/application.css.scss */
+    /* line 32, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/application.css.scss */
     .navbar-brand {
       height: 64px; } }
 
-/* line 35, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/application.css.scss */
+/* line 38, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/application.css.scss */
 .navbar {
   margin-bottom: 0px; }
 
-/* line 39, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/application.css.scss */
+/* line 42, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/application.css.scss */
 .is-active {
   border: 2px solid #F19100;
   border-radius: 3px; }
 
-/* line 44, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/application.css.scss */
+/* line 47, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/application.css.scss */
 .my-background-image {
   background-image: url("/assets/images/engine-f4c721a7.svg");
   height: 200px;
   width: 360px; }
 
-/* line 50, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/application.css.scss */
+/* line 53, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/application.css.scss */
 figure.kudo {
-  position: inherit;
-  right: 50%;
-  margin-right: -30px;
   text-align: center; }
 
 /* line 58, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/application.css.scss */
