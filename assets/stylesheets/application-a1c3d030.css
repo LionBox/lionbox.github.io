@@ -12473,3 +12473,7 @@ figure.kudo {
     /* line 65, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/application.css.scss */
     .royalSlider {
       height: 270px; } }
+
+/* line 79, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/application.css.scss */
+iframe {
+  margin-top: 0px; }

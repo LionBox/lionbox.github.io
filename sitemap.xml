@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.lionbox.github.io/about/index.html</loc>
-    <lastmod>2015-01-29T15:26:11+00:00</lastmod>
+    <lastmod>2015-01-29T16:02:09+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -32,7 +32,7 @@
   </url>
   <url>
     <loc>http://www.lionbox.github.io/2015/01/26/setting-up-a-Middleman-site-in-Github/index.html</loc>
-    <lastmod>2015-01-29T15:16:08+00:00</lastmod>
+    <lastmod>2015-01-29T15:51:46+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -50,49 +50,49 @@
   </url>
   <url>
     <loc>http://www.lionbox.github.io/tag/getting-started/index.html</loc>
-    <lastmod>2015-01-29T15:26:11+00:00</lastmod>
+    <lastmod>2015-01-29T16:02:09+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.lionbox.github.io/author/lionbox/index.html</loc>
-    <lastmod>2015-01-29T15:26:11+00:00</lastmod>
+    <lastmod>2015-01-29T16:02:09+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.lionbox.github.io/index.html</loc>
-    <lastmod>2015-01-29T15:26:11+00:00</lastmod>
+    <lastmod>2015-01-29T16:02:09+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.lionbox.github.io/bower_components/jquery.easing/README/index.html</loc>
-    <lastmod>2015-01-29T15:26:11+00:00</lastmod>
+    <lastmod>2015-01-29T16:02:09+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.lionbox.github.io/bower_components/bootstrap-sass-official/CHANGELOG/index.html</loc>
-    <lastmod>2015-01-29T15:26:11+00:00</lastmod>
+    <lastmod>2015-01-29T16:02:09+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.lionbox.github.io/bower_components/bootstrap-sass-official/CONTRIBUTING/index.html</loc>
-    <lastmod>2015-01-29T15:26:11+00:00</lastmod>
+    <lastmod>2015-01-29T16:02:09+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.lionbox.github.io/bower_components/bootstrap-sass-official/README/index.html</loc>
-    <lastmod>2015-01-29T15:26:11+00:00</lastmod>
+    <lastmod>2015-01-29T16:02:09+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.lionbox.github.io/tag/test/index.html</loc>
-    <lastmod>2015-01-29T15:26:11+00:00</lastmod>
+    <lastmod>2015-01-29T16:02:09+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
