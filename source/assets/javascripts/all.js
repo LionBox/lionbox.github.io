@@ -1,5 +1,6 @@
 //= require jquery/dist/jquery
 //= require jquery.cookie/jquery.cookie
+//= require jquery.easing/js/jquery.easing
 
 // TODO: PICKFRAMEWORK: Remove the one you don't want
 // Watch out for the //= at the beginning. This needs to be present for the
@@ -9,6 +10,7 @@
 
 //= require application
 //= require kudos
+//= require jquery.royalslider.min
 
 //= require app
 

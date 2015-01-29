@@ -6,12 +6,14 @@ $icon-font-path: "../../bower_components/bootstrap-sass-official/assets/fonts/bo
 $fa-font-path: "../..//bower_components/font-awesome/fonts";
 @import 'font-awesome/scss/font-awesome';
 
-
+// Vendor CSS
 @import 'vendor/casper';
 @import 'vendor/kudos';
-@import 'syntax';
-// @import 'font-awesome/scss/font-awesome';
+	// RoyalSlider
+@import 'vendor/royalslider';
+@import 'vendor/skins/default/rs-default';
 
+@import 'syntax';
 
 
 // Overwrite some styles from casper.css
@@ -51,4 +53,8 @@ figure.kudo {
 
 .nav{
 	text-align: center;
+}
+
+.rsDefault .rsBullets {
+	line-height: 30px;
 }
