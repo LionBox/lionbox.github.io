@@ -23,6 +23,9 @@ pre {
 
 .navbar-brand {
 	line-height: 35px;
+    @media only screen and (max-width: $screen-sm-min) {
+	    height: 64px;
+	}
 }
 .navbar{
 	margin-bottom: 0px;
@@ -40,8 +43,12 @@ pre {
 }
 
 figure.kudo {
-position: inherit; 
-right: 50%;
-margin-right: -30px;
-text-align: center;
+	position: inherit; 
+	right: 50%;
+	margin-right: -30px;
+	text-align: center;
+}
+
+.nav{
+	text-align: center;
 }
