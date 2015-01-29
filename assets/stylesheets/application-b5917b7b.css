@@ -11022,6 +11022,790 @@ a.kudobject {
     -moz-transform: scale(0.95); }
   100% {
     -moz-transform: scale(0.85); } }
+/* v1.0.5 */
+/* Core RS CSS file. 95% of time you shouldn't change anything here. */
+/* line 4, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/royalslider.css */
+.royalSlider {
+  width: 600px;
+  height: 400px;
+  position: relative;
+  direction: ltr; }
+
+/* line 10, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/royalslider.css */
+.royalSlider > * {
+  float: left; }
+
+/* line 14, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/royalslider.css */
+.rsWebkit3d .rsSlide {
+  -webkit-transform: translateZ(0); }
+
+/* line 19, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/royalslider.css */
+.rsWebkit3d .rsSlide,
+.rsWebkit3d .rsContainer,
+.rsWebkit3d .rsThumbs,
+.rsWebkit3d .rsPreloader,
+.rsWebkit3d img,
+.rsWebkit3d .rsOverflow,
+.rsWebkit3d .rsBtnCenterer,
+.rsWebkit3d .rsAbsoluteEl,
+.rsWebkit3d .rsABlock,
+.rsWebkit3d .rsLink {
+  -webkit-backface-visibility: hidden; }
+
+/* line 31, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/royalslider.css */
+.rsFade.rsWebkit3d .rsSlide,
+.rsFade.rsWebkit3d img,
+.rsFade.rsWebkit3d .rsContainer {
+  -webkit-transform: none; }
+
+/* line 36, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/royalslider.css */
+.rsOverflow {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  float: left;
+  -webkit-tap-highlight-color: transparent; }
+
+/* line 44, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/royalslider.css */
+.rsVisibleNearbyWrap {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  left: 0;
+  top: 0;
+  -webkit-tap-highlight-color: transparent; }
+
+/* line 53, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/royalslider.css */
+.rsVisibleNearbyWrap .rsOverflow {
+  position: absolute;
+  left: 0;
+  top: 0; }
+
+/* line 59, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/royalslider.css */
+.rsContainer {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  -webkit-tap-highlight-color: transparent; }
+
+/* line 66, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/royalslider.css */
+.rsArrow,
+.rsThumbsArrow {
+  cursor: pointer; }
+
+/* line 71, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/royalslider.css */
+.rsThumb {
+  float: left;
+  position: relative; }
+
+/* line 77, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/royalslider.css */
+.rsArrow,
+.rsNav,
+.rsThumbsArrow {
+  opacity: 1;
+  -webkit-transition: opacity 0.3s linear;
+  -moz-transition: opacity 0.3s linear;
+  -o-transition: opacity 0.3s linear;
+  transition: opacity 0.3s linear; }
+
+/* line 86, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/royalslider.css */
+.rsHidden {
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: visibility 0s linear 0.3s,opacity 0.3s linear;
+  -moz-transition: visibility 0s linear 0.3s,opacity 0.3s linear;
+  -o-transition: visibility 0s linear 0.3s,opacity 0.3s linear;
+  transition: visibility 0s linear 0.3s,opacity 0.3s linear; }
+
+/* line 96, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/royalslider.css */
+.rsGCaption {
+  width: 100%;
+  float: left;
+  text-align: center; }
+
+/* Fullscreen options, very important ^^ */
+/* line 103, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/royalslider.css */
+.royalSlider.rsFullscreen {
+  position: fixed !important;
+  height: auto !important;
+  width: auto !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  z-index: 2147483647 !important;
+  top: 0 !important;
+  left: 0 !important;
+  bottom: 0 !important;
+  right: 0 !important; }
+
+/* line 116, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/royalslider.css */
+.royalSlider .rsSlide.rsFakePreloader {
+  opacity: 1 !important;
+  -webkit-transition: 0s;
+  -moz-transition: 0s;
+  -o-transition: 0s;
+  transition: 0s;
+  display: none; }
+
+/* line 125, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/royalslider.css */
+.rsSlide {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: block;
+  overflow: hidden;
+  height: 100%;
+  width: 100%; }
+
+/* line 136, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/royalslider.css */
+.royalSlider.rsAutoHeight,
+.rsAutoHeight .rsSlide {
+  height: auto; }
+
+/* line 141, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/royalslider.css */
+.rsContent {
+  width: 100%;
+  height: 100%;
+  position: relative; }
+
+/* line 147, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/royalslider.css */
+.rsPreloader {
+  position: absolute;
+  z-index: 0; }
+
+/* line 152, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/royalslider.css */
+.rsNav {
+  -moz-user-select: -moz-none;
+  -webkit-user-select: none;
+  user-select: none; }
+
+/* line 157, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/royalslider.css */
+.rsNavItem {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0.25); }
+
+/* line 161, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/royalslider.css */
+.rsThumbs {
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  float: left;
+  z-index: 22; }
+
+/* line 168, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/royalslider.css */
+.rsTabs {
+  float: left;
+  background: none !important; }
+
+/* line 172, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/royalslider.css */
+.rsTabs,
+.rsThumbs {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: transparent; }
+
+/* line 179, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/royalslider.css */
+.rsVideoContainer {
+  /*left: 0;
+  top: 0;
+  position: absolute;*/
+  /*width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  float: left;*/
+  width: auto;
+  height: auto;
+  line-height: 0;
+  position: relative; }
+
+/* line 194, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/royalslider.css */
+.rsVideoFrameHolder {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: #141414;
+  opacity: 0;
+  -webkit-transition: .3s; }
+
+/* line 202, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/royalslider.css */
+.rsVideoFrameHolder.rsVideoActive {
+  opacity: 1; }
+
+/* line 205, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/royalslider.css */
+.rsVideoContainer iframe,
+.rsVideoContainer video,
+.rsVideoContainer embed,
+.rsVideoContainer .rsVideoObj {
+  position: absolute;
+  z-index: 50;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%; }
+
+/* ios controls over video bug, shifting video */
+/* line 217, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/royalslider.css */
+.rsVideoContainer.rsIOSVideo iframe,
+.rsVideoContainer.rsIOSVideo video,
+.rsVideoContainer.rsIOSVideo embed {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-right: 44px; }
+
+/* line 226, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/royalslider.css */
+.rsABlock {
+  left: 0;
+  top: 0;
+  position: absolute;
+  z-index: 15; }
+
+/* line 234, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/royalslider.css */
+img.rsImg {
+  max-width: none; }
+
+/* line 238, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/royalslider.css */
+.grab-cursor {
+  cursor: url(grab.png) 8 8, move; }
+
+/* line 242, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/royalslider.css */
+.grabbing-cursor {
+  cursor: url(grabbing.png) 8 8, move; }
+
+/* line 246, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/royalslider.css */
+.rsNoDrag {
+  cursor: auto; }
+
+/* line 250, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/royalslider.css */
+.rsLink {
+  left: 0;
+  top: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: block;
+  z-index: 20;
+  background: url(blank.gif); }
+
+/******************************
+*
+*  RoyalSlider Default Skin 
+*
+*    1. Arrows 
+*    2. Bullets
+*    3. Thumbnails
+*    4. Tabs
+*    5. Fullscreen button
+*    6. Play/close video button
+*    7. Preloader
+*    8. Caption
+*    
+*  Sprite: 'rs-default.png'
+*  Feel free to edit anything
+*  If you don't some part - just delete it
+* 
+******************************/
+/* Background */
+/* line 23, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/skins/default/rs-default.css */
+.rsDefault,
+.rsDefault .rsOverflow,
+.rsDefault .rsSlide,
+.rsDefault .rsVideoFrameHolder,
+.rsDefault .rsThumbs {
+  background: #151515;
+  color: #FFF; }
+
+/***************
+*
+*  1. Arrows
+*
+****************/
+/* line 39, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/skins/default/rs-default.css */
+.rsDefault .rsArrow {
+  height: 100%;
+  width: 44px;
+  position: absolute;
+  display: block;
+  cursor: pointer;
+  z-index: 21; }
+
+/* line 47, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/skins/default/rs-default.css */
+.rsDefault.rsVer .rsArrow {
+  width: 100%;
+  height: 44px; }
+
+/* line 52, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/skins/default/rs-default.css */
+.rsDefault.rsVer .rsArrowLeft {
+  top: 0;
+  left: 0; }
+
+/* line 53, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/skins/default/rs-default.css */
+.rsDefault.rsVer .rsArrowRight {
+  bottom: 0;
+  left: 0; }
+
+/* line 55, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/skins/default/rs-default.css */
+.rsDefault.rsHor .rsArrowLeft {
+  left: 0;
+  top: 0; }
+
+/* line 56, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/skins/default/rs-default.css */
+.rsDefault.rsHor .rsArrowRight {
+  right: 0;
+  top: 0; }
+
+/* line 58, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/skins/default/rs-default.css */
+.rsDefault .rsArrowIcn {
+  width: 32px;
+  height: 32px;
+  top: 50%;
+  left: 50%;
+  margin-top: -16px;
+  margin-left: -16px;
+  position: absolute;
+  cursor: pointer;
+  background: url("/assets/images/royalslider/rs-default-30360207.png");
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.75);
+  *background-color: #000;
+  border-radius: 2px; }
+
+/* line 76, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/skins/default/rs-default.css */
+.rsDefault .rsArrowIcn:hover {
+  background-color: rgba(0, 0, 0, 0.9); }
+
+/* line 80, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/skins/default/rs-default.css */
+.rsDefault.rsHor .rsArrowLeft .rsArrowIcn {
+  background-position: -64px -32px; }
+
+/* line 81, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/skins/default/rs-default.css */
+.rsDefault.rsHor .rsArrowRight .rsArrowIcn {
+  background-position: -64px -64px; }
+
+/* line 83, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/skins/default/rs-default.css */
+.rsDefault.rsVer .rsArrowLeft .rsArrowIcn {
+  background-position: -96px -32px; }
+
+/* line 84, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/skins/default/rs-default.css */
+.rsDefault.rsVer .rsArrowRight .rsArrowIcn {
+  background-position: -96px -64px; }
+
+/* line 86, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/skins/default/rs-default.css */
+.rsDefault .rsArrowDisabled .rsArrowIcn {
+  opacity: .2;
+  filter: alpha(opacity=20);
+  *display: none; }
+
+/***************
+*
+*  2. Bullets
+*
+****************/
+/* line 95, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/skins/default/rs-default.css */
+.rsDefault .rsBullets {
+  position: absolute;
+  z-index: 35;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  background: #000;
+  background: rgba(0, 0, 0, 0.75);
+  text-align: center;
+  line-height: 8px;
+  overflow: hidden; }
+
+/* line 111, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/skins/default/rs-default.css */
+.rsDefault .rsBullet {
+  width: 8px;
+  height: 8px;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  padding: 6px 5px 6px; }
+
+/* line 119, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/skins/default/rs-default.css */
+.rsDefault .rsBullet span {
+  display: block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #777;
+  background: rgba(255, 255, 255, 0.5); }
+
+/* line 127, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/skins/default/rs-default.css */
+.rsDefault .rsBullet.rsNavSelected span {
+  background-color: #FFF; }
+
+/***************
+*
+*  3. Thumbnails
+*
+****************/
+/* line 141, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/skins/default/rs-default.css */
+.rsDefault .rsThumbsHor {
+  width: 100%;
+  height: 72px; }
+
+/* line 145, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/skins/default/rs-default.css */
+.rsDefault .rsThumbsVer {
+  width: 96px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0; }
+
+/* line 152, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/skins/default/rs-default.css */
+.rsDefault.rsWithThumbsHor .rsThumbsContainer {
+  position: relative;
+  height: 100%; }
+
+/* line 156, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/skins/default/rs-default.css */
+.rsDefault.rsWithThumbsVer .rsThumbsContainer {
+  position: relative;
+  width: 100%; }
+
+/* line 160, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/skins/default/rs-default.css */
+.rsDefault .rsThumb {
+  float: left;
+  overflow: hidden;
+  width: 96px;
+  height: 72px; }
+
+/* line 166, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/skins/default/rs-default.css */
+.rsDefault .rsThumb img {
+  width: 100%;
+  height: 100%; }
+
+/* line 170, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/skins/default/rs-default.css */
+.rsDefault .rsThumb.rsNavSelected {
+  background: #02874a; }
+
+/* line 173, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/skins/default/rs-default.css */
+.rsDefault .rsThumb.rsNavSelected img {
+  opacity: 0.3;
+  filter: alpha(opacity=30); }
+
+/* line 177, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/skins/default/rs-default.css */
+.rsDefault .rsTmb {
+  display: block; }
+
+/* Thumbnails with text */
+/* line 182, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/skins/default/rs-default.css */
+.rsDefault .rsTmb h5 {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  line-height: 20px;
+  color: #FFF; }
+
+/* line 189, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/skins/default/rs-default.css */
+.rsDefault .rsTmb span {
+  color: #DDD;
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+  line-height: 18px; }
+
+/* Thumbnails arrow icons */
+/* line 200, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/skins/default/rs-default.css */
+.rsDefault .rsThumbsArrow {
+  height: 100%;
+  width: 20px;
+  position: absolute;
+  display: block;
+  cursor: pointer;
+  z-index: 21;
+  background: #000;
+  background: rgba(0, 0, 0, 0.75); }
+
+/* line 210, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/skins/default/rs-default.css */
+.rsDefault .rsThumbsArrow:hover {
+  background: rgba(0, 0, 0, 0.9); }
+
+/* line 213, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/skins/default/rs-default.css */
+.rsDefault.rsWithThumbsVer .rsThumbsArrow {
+  width: 100%;
+  height: 20px; }
+
+/* line 217, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/skins/default/rs-default.css */
+.rsDefault.rsWithThumbsVer .rsThumbsArrowLeft {
+  top: 0;
+  left: 0; }
+
+/* line 218, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/skins/default/rs-default.css */
+.rsDefault.rsWithThumbsVer .rsThumbsArrowRight {
+  bottom: 0;
+  left: 0; }
+
+/* line 220, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/skins/default/rs-default.css */
+.rsDefault.rsWithThumbsHor .rsThumbsArrowLeft {
+  left: 0;
+  top: 0; }
+
+/* line 221, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/skins/default/rs-default.css */
+.rsDefault.rsWithThumbsHor .rsThumbsArrowRight {
+  right: 0;
+  top: 0; }
+
+/* line 223, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/skins/default/rs-default.css */
+.rsDefault .rsThumbsArrowIcn {
+  width: 16px;
+  height: 16px;
+  top: 50%;
+  left: 50%;
+  margin-top: -8px;
+  margin-left: -8px;
+  position: absolute;
+  cursor: pointer;
+  background: url("/assets/images/royalslider/rs-default-30360207.png"); }
+
+/* line 235, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/skins/default/rs-default.css */
+.rsDefault.rsWithThumbsHor .rsThumbsArrowLeft .rsThumbsArrowIcn {
+  background-position: -128px -32px; }
+
+/* line 236, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/skins/default/rs-default.css */
+.rsDefault.rsWithThumbsHor .rsThumbsArrowRight .rsThumbsArrowIcn {
+  background-position: -128px -48px; }
+
+/* line 238, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/skins/default/rs-default.css */
+.rsDefault.rsWithThumbsVer .rsThumbsArrowLeft .rsThumbsArrowIcn {
+  background-position: -144px -32px; }
+
+/* line 239, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/skins/default/rs-default.css */
+.rsDefault.rsWithThumbsVer .rsThumbsArrowRight .rsThumbsArrowIcn {
+  background-position: -144px -48px; }
+
+/* line 241, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/skins/default/rs-default.css */
+.rsDefault .rsThumbsArrowDisabled {
+  display: none !important; }
+
+/* Thumbnails resizing on smaller screens */
+@media screen and (min-width: 0px) and (max-width: 800px) {
+  /* line 245, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/skins/default/rs-default.css */
+  .rsDefault .rsThumb {
+    width: 59px;
+    height: 44px; }
+
+  /* line 249, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/skins/default/rs-default.css */
+  .rsDefault .rsThumbsHor {
+    height: 44px; }
+
+  /* line 252, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/skins/default/rs-default.css */
+  .rsDefault .rsThumbsVer {
+    width: 59px; } }
+/***************
+*
+*  4. Tabs
+*
+****************/
+/* line 266, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/skins/default/rs-default.css */
+.rsDefault .rsTabs {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+  overflow: hidden;
+  padding-top: 12px;
+  position: relative; }
+
+/* line 273, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/skins/default/rs-default.css */
+.rsDefault .rsTab {
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  height: auto;
+  width: auto;
+  color: #333;
+  padding: 5px 13px 6px;
+  min-width: 72px;
+  border: 1px solid #D9D9DD;
+  border-right: 1px solid #f5f5f5;
+  text-decoration: none;
+  background-color: #FFF;
+  background-image: -webkit-linear-gradient(top, #fefefe, #f4f4f4);
+  background-image: -moz-linear-gradient(top, #fefefe, #f4f4f4);
+  background-image: linear-gradient(to bottom, #fefefe, #f4f4f4);
+  -webkit-box-shadow: inset 1px 0 0 #fff;
+  box-shadow: inset 1px 0 0 #fff;
+  *display: inline;
+  *zoom: 1; }
+
+/* line 297, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/skins/default/rs-default.css */
+.rsDefault .rsTab:first-child {
+  -webkit-border-top-left-radius: 4px;
+  border-top-left-radius: 4px;
+  -webkit-border-bottom-left-radius: 4px;
+  border-bottom-left-radius: 4px; }
+
+/* line 303, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/skins/default/rs-default.css */
+.rsDefault .rsTab:last-child {
+  -webkit-border-top-right-radius: 4px;
+  border-top-right-radius: 4px;
+  -webkit-border-bottom-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border-right: 1px solid #cfcfcf; }
+
+/* line 311, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/skins/default/rs-default.css */
+.rsDefault .rsTab:active {
+  border: 1px solid #D9D9DD;
+  background-color: #f4f4f4;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2) inset; }
+
+/* line 316, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/skins/default/rs-default.css */
+.rsDefault .rsTab.rsNavSelected {
+  color: #FFF;
+  border: 1px solid #999;
+  text-shadow: 1px 1px #838383;
+  box-shadow: 0 1px 9px rgba(102, 102, 102, 0.65) inset;
+  background: #ACACAC;
+  background-image: -webkit-linear-gradient(top, #ACACAC, #BBB);
+  background-image: -moz-llinear-gradient(top, #ACACAC, #BBB);
+  background-image: linear-gradient(to bottom, #ACACAC, #BBB); }
+
+/***************
+*
+*  5. Fullscreen button
+*
+****************/
+/* line 337, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/skins/default/rs-default.css */
+.rsDefault .rsFullscreenBtn {
+  right: 0;
+  top: 0;
+  width: 44px;
+  height: 44px;
+  z-index: 22;
+  display: block;
+  position: absolute;
+  cursor: pointer; }
+
+/* line 348, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/skins/default/rs-default.css */
+.rsDefault .rsFullscreenIcn {
+  display: block;
+  margin: 6px;
+  width: 32px;
+  height: 32px;
+  background: url("/assets/images/royalslider/rs-default-30360207.png") 0 0;
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.75);
+  *background-color: #000;
+  border-radius: 2px; }
+
+/* line 361, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/skins/default/rs-default.css */
+.rsDefault .rsFullscreenIcn:hover {
+  background-color: rgba(0, 0, 0, 0.9); }
+
+/* line 364, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/skins/default/rs-default.css */
+.rsDefault.rsFullscreen .rsFullscreenIcn {
+  background-position: -32px 0; }
+
+/***************
+*
+*  6. Play/close video button
+*
+****************/
+/* line 378, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/skins/default/rs-default.css */
+.rsDefault .rsPlayBtn {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0.3);
+  width: 64px;
+  height: 64px;
+  margin-left: -32px;
+  margin-top: -32px;
+  cursor: pointer; }
+
+/* line 386, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/skins/default/rs-default.css */
+.rsDefault .rsPlayBtnIcon {
+  width: 64px;
+  display: block;
+  height: 64px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-transition: .3s;
+  -moz-transition: .3s;
+  transition: .3s;
+  background: url(/assets/images/royalslider/rs-default-30360207.png) no-repeat 0 -32px;
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.75);
+  *background-color: #000; }
+
+/* line 402, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/skins/default/rs-default.css */
+.rsDefault .rsPlayBtn:hover .rsPlayBtnIcon {
+  background-color: rgba(0, 0, 0, 0.9); }
+
+/* line 405, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/skins/default/rs-default.css */
+.rsDefault .rsBtnCenterer {
+  position: absolute;
+  left: 50%;
+  top: 50%; }
+
+/* line 410, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/skins/default/rs-default.css */
+.rsDefault .rsCloseVideoBtn {
+  right: 0;
+  top: 0;
+  width: 44px;
+  height: 44px;
+  z-index: 500;
+  position: absolute;
+  cursor: pointer;
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: translateZ(0); }
+
+/* line 422, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/skins/default/rs-default.css */
+.rsDefault .rsCloseVideoBtn.rsiOSBtn {
+  top: -38px;
+  right: -6px; }
+
+/* line 427, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/skins/default/rs-default.css */
+.rsDefault .rsCloseVideoIcn {
+  margin: 6px;
+  width: 32px;
+  height: 32px;
+  background: url("/assets/images/royalslider/rs-default-30360207.png") -64px 0;
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.75);
+  *background-color: #000; }
+
+/* line 436, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/skins/default/rs-default.css */
+.rsDefault .rsCloseVideoIcn:hover {
+  background-color: rgba(0, 0, 0, 0.9); }
+
+/***************
+*
+*  7. Preloader
+*
+****************/
+/* line 448, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/skins/default/rs-default.css */
+.rsDefault .rsPreloader {
+  width: 20px;
+  height: 20px;
+  background-image: url(/assets/images/royalslider/preloaders/preloader-white-b1cc5569.gif);
+  left: 50%;
+  top: 50%;
+  margin-left: -10px;
+  margin-top: -10px; }
+
+/***************
+*
+*  8. Global caption
+*
+****************/
+/* line 467, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/vendor/skins/default/rs-default.css */
+.rsDefault .rsGCaption {
+  position: absolute;
+  float: none;
+  bottom: 6px;
+  left: 6px;
+  text-align: left;
+  background: black;
+  background: rgba(0, 0, 0, 0.75);
+  color: #FFF;
+  padding: 2px 8px;
+  width: auto;
+  font-size: 12px;
+  border-radius: 2px; }
+
 /* line 1, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/_syntax.css.erb */
 .highlight table td {
   padding: 5px; }
@@ -11298,34 +12082,46 @@ a.kudobject {
 .highlight {
   background-color: #f8f8f8; }
 
-/* line 18, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/application.css.scss */
+/* line 20, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/application.css.scss */
 pre {
   background: transparent;
   border-style: none;
   padding: initial; }
 
-/* line 24, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/application.css.scss */
+/* line 26, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/application.css.scss */
 .navbar-brand {
   line-height: 35px; }
+  @media only screen and (max-width: 768px) {
+    /* line 26, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/application.css.scss */
+    .navbar-brand {
+      height: 64px; } }
 
-/* line 27, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/application.css.scss */
+/* line 32, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/application.css.scss */
 .navbar {
   margin-bottom: 0px; }
 
-/* line 31, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/application.css.scss */
+/* line 36, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/application.css.scss */
 .is-active {
   border: 2px solid #F19100;
   border-radius: 3px; }
 
-/* line 36, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/application.css.scss */
+/* line 41, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/application.css.scss */
 .my-background-image {
   background-image: url("/assets/images/engine-f4c721a7.svg");
   height: 200px;
   width: 360px; }
 
-/* line 42, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/application.css.scss */
+/* line 47, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/application.css.scss */
 figure.kudo {
   position: inherit;
   right: 50%;
   margin-right: -30px;
   text-align: center; }
+
+/* line 54, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/application.css.scss */
+.nav {
+  text-align: center; }
+
+/* line 58, /Users/alvaroruiz/Documents/GitHub/lionbox.github.io/source/assets/stylesheets/application.css.scss */
+.rsDefault .rsBullets {
+  line-height: 30px; }
