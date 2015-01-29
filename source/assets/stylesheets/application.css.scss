@@ -9,9 +9,12 @@ $fa-font-path: "../..//bower_components/font-awesome/fonts";
 // Vendor CSS
 @import 'vendor/casper';
 @import 'vendor/kudos';
-	// RoyalSlider
+// RoyalSlider
 @import 'vendor/royalslider';
 @import 'vendor/skins/default/rs-default';
+// Margin-Library
+@import 'vendor/ml-less';
+
 
 @import 'syntax';
 
@@ -51,10 +54,24 @@ figure.kudo {
 	text-align: center;
 }
 
+
 .nav{
 	text-align: center;
 }
 
 .rsDefault .rsBullets {
 	line-height: 30px;
+}
+.royalSlider {
+  width: 100%;
+  height: 600px;
+  	@media only screen and (max-width: $screen-sm-max) {
+	    height: 400px;
+	}
+	@media only screen and (min-width: $screen-xs-min) and (max-width: $screen-xs-max) {
+	    height: 320px;
+	}
+	@media only screen and (max-width: $screen-xs-min) {
+	    height: 270px;
+	}
 }

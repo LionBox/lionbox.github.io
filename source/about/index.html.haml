@@ -60,16 +60,26 @@
     %br/
 
     %h3 Royal Slider
-    .col-xs-12
-      .royalSlider.rsDefault
-        / simple image slide
-        %img.rsImg{:alt => "image desc", :src => "http://lorempixel.com/output/abstract-q-c-850-480-8.jpg"}/
-        / simple image slide
-        %img.rsImg{:alt => "image desc", :src => "http://lorempixel.com/output/abstract-q-c-850-480-1.jpg"}/
-        / simple image slide
-        %img.rsImg{:alt => "image desc", :src => "http://lorempixel.com/output/abstract-q-c-850-480-7.jpg"}/
-        / lazy loaded image slide
-    
+    #customslider.royalSlider.rsDefault.mb20
+      / simple image slide
+      %img.rsImg{:alt => "image desc", :src => "http://lorempixel.com/output/abstract-q-c-1200-800-8.jpg"}/
+      / simple image slide
+      %img.rsImg{:alt => "image desc", :src => "http://lorempixel.com/output/abstract-q-c-1200-800-1.jpg"}/
+      / simple image slide
+      %img.rsImg{:alt => "image desc", :src => "http://lorempixel.com/output/abstract-q-c-1200-800-7.jpg"}/
+      / lazy loaded image slide
+
+    %h3 Columns visibility with Bootstrap
+    .col-xs-12.visible-xs
+      XS size column
+    .col-xs-12.visible-sm
+      SM size column
+    .col-xs-12.visible-md
+      MD size column
+    .col-xs-12.visible-lg
+      LG size column
+
+
 
 
     

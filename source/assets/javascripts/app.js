@@ -68,6 +68,8 @@ $(function()
     $(".royalSlider").royalSlider({
         // options go here
         // as an example, enable keyboard arrows nav
-        keyboardNavEnabled: true
+        keyboardNavEnabled: true,
+
+
     });  
 });
