@@ -29,11 +29,11 @@ Add the deploy configuration in the `config.rb`.
 
 ```
 # github deploy
- activate :deploy do |deploy|
-   deploy.method = :git
-   deploy.build_before = true
-   deploy.branch   = "master"
-   deploy.remote   = "git@github.com:username/username.github.io.git"
+activate :deploy do |deploy|
+ deploy.method = :git
+ deploy.build_before = true
+ deploy.branch   = "master"
+ 
 end
 ```
 
@@ -47,6 +47,7 @@ You should now enter your github username and password.
 Now should be your code running in your github page username.github.io.
 
 Add a .gitignore file in the root of your project with at least the following content.
+
 
 ```
 # Ignore bundler config

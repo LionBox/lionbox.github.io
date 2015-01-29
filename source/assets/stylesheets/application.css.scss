@@ -25,7 +25,10 @@ pre {
   border-style: none;
   padding: initial;
 }
-
+// Hide Number in block code
+td.gutter.gl{
+	display: none;
+}
 .navbar-brand {
 	line-height: 35px;
     @media only screen and (max-width: $screen-sm-min) {
@@ -48,9 +51,6 @@ pre {
 }
 
 figure.kudo {
-	position: inherit; 
-	right: 50%;
-	margin-right: -30px;
 	text-align: center;
 }
 

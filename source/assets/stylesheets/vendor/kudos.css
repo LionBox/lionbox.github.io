@@ -48,11 +48,11 @@ figure{
 	margin-top:20px;
 }
 figure.kudo{
-	position: absolute;
+/*	position: absolute;
 	right: 50%;
 	margin-right: -30px;
 	top: 30px;
-	text-align:center;
+	text-align:center;*/
 }
 /*figure.kudo article a.kudobject p{text-align:center;display:block;margin:0;padding:0;line-height:50px;width:auto;height:auto}*/
 

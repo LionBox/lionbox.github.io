@@ -1,87 +1,58 @@
-.row
-  .container
-    %br/
-    %br/
-    %br/
-    %h3 Modal Example
-    %img(src="/assets/images/engine.svg"){"data-target" => "#imageModal", "data-toggle" => "modal", "data-whatever" => "@mdo", :type => "button"}
-    
-    %br/
-    %br/
-    %br/
-    %h3 Font-Awesome Example
-    %i.fa.fa-connectdevelop.fa-5x
-    %i.fa.fa-spinner.fa-spin.fa-2x
-    %span.fa-stack.fa-lg
-      %i.fa.fa-square.fa-stack-2x
-      %i.fa.fa-twitter.fa-inverse.fa-stack-1x
-
-    %br/
-    %br/
-    %br/
-    %br/
-
-    %h3 Text generation
-    = lorem.sentence      # returns a single sentence
-    / = lorem.words 5       # returns 5 individual words
-    / = lorem.paragraphs 10 # returns 10 paragraphs
-    / %img{:src => " = lorem.image('300x400') ", :alt => ""}/
-    %br/
-    = lorem.email
-    = lorem.image('300x400')
-    
-    %br/
-    %br/
-    %br/
-    %br/
-
-    %h3 Background image
-    .my-background-image
-      Content here
-
-
-    %br/
-    %br/
-    %br/
-    %br/
-
-    %h3 Kudos
-    %figure.kudo.kudoable{"data-id" => "1"}
-      %a.kudobject
-        .opening
-          .circle  
-      %a.count{:href => "#kudo"}
-        %span.num 0
-        %span.txt Kudos
-
-    %br/
-    %br/
-    %br/
-    %br/
-
-    %h3 Royal Slider
-    #customslider.royalSlider.rsDefault.mb20
-      / simple image slide
-      %img.rsImg{:alt => "image desc", :src => "http://lorempixel.com/output/abstract-q-c-1200-800-8.jpg"}/
-      / simple image slide
-      %img.rsImg{:alt => "image desc", :src => "http://lorempixel.com/output/abstract-q-c-1200-800-1.jpg"}/
-      / simple image slide
-      %img.rsImg{:alt => "image desc", :src => "http://lorempixel.com/output/abstract-q-c-1200-800-7.jpg"}/
-      / lazy loaded image slide
-
-    %h3 Columns visibility with Bootstrap
-    .col-xs-12.visible-xs
-      XS size column
-    .col-xs-12.visible-sm
-      SM size column
-    .col-xs-12.visible-md
-      MD size column
-    .col-xs-12.visible-lg
-      LG size column
-
-
-
-
+.container 
+  .row
+    .col-xs-12
+      %h3 Modal Example
+      %img(src="/assets/images/engine.svg"){"data-target" => "#imageModal", "data-toggle" => "modal", "data-whatever" => "@mdo", :type => "button"}
+      
+    .col-xs-12
+      %h3 Font-Awesome Example
+      %i.fa.fa-connectdevelop.fa-5x
+      %i.fa.fa-spinner.fa-spin.fa-2x
+      %span.fa-stack.fa-lg
+        %i.fa.fa-square.fa-stack-2x
+        %i.fa.fa-twitter.fa-inverse.fa-stack-1x
+    .col-xs-12
+      %h3 Text generation
+      = lorem.sentence      # returns a single sentence
+      / = lorem.words 5       # returns 5 individual words
+      / = lorem.paragraphs 10 # returns 10 paragraphs
+      / %img{:src => " = lorem.image('300x400') ", :alt => ""}/
+      %br/
+      = lorem.email
+      = lorem.image('300x400')
+    .col-xs-12
+      %h3 Background image
+      .my-background-image
+        Content here
+    .col-xs-12
+      %h3 Kudos
+      %figure.kudo.kudoable{"data-id" => "1"}
+        %a.kudobject
+          .opening
+            .circle  
+        %a.count{:href => "#kudo"}
+          %span.num 0
+          %span.txt Kudos
+    .col-xs-12
+      %h3 Royal Slider
+      #customslider.royalSlider.rsDefault.mb20
+        / simple image slide
+        %img.rsImg{:alt => "image desc", :src => "http://lorempixel.com/output/abstract-q-c-1200-800-8.jpg"}/
+        / simple image slide
+        %img.rsImg{:alt => "image desc", :src => "http://lorempixel.com/output/abstract-q-c-1200-800-1.jpg"}/
+        / simple image slide
+        %img.rsImg{:alt => "image desc", :src => "http://lorempixel.com/output/abstract-q-c-1200-800-7.jpg"}/
+        / lazy loaded image slide
+    .col-xs-12
+      %h3 Columns visibility with Bootstrap
+      .col-xs-12.visible-xs
+        XS size column
+      .col-xs-12.visible-sm
+        SM size column
+      .col-xs-12.visible-md
+        MD size column
+      .col-xs-12.visible-lg
+        LG size column
     
 #imageModal.modal.fade{"aria-hidden" => "true", "aria-labelledby" => "exampleModalLabel", :role => "dialog", :tabindex => "-1"}
   .modal-dialog
