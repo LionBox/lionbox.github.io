@@ -5,10 +5,24 @@
   <id>http://www.lionbox.github.io</id>
   <link href="http://www.lionbox.github.io"/>
   <link href="http://www.lionbox.github.io/tag/test/feed.xml" rel="self"/>
-  <updated>2015-01-26T00:00:00+00:00</updated>
+  <updated>2015-01-28T13:57:00+00:00</updated>
   <author>
     <name>LionBox</name>
   </author>
+  <entry>
+    <title>Adding new features</title>
+    <link rel="alternate" href="http://www.lionbox.github.io/2015/01/28/adding-new-features/"/>
+    <id>http://www.lionbox.github.io/2015/01/28/adding-new-features/</id>
+    <published>2015-01-28T13:57:00+00:00</published>
+    <updated>2015-01-29T10:47:56+00:00</updated>
+    <author>
+      <name>LionBox</name>
+    </author>
+    <summary type="html"> It is not empty 
+
+  
+</summary>
+  </entry>
   <entry>
     <title>Setting up a Middleman site in Github</title>
     <link rel="alternate" href="http://www.lionbox.github.io/2015/01/26/setting-up-a-Middleman-site-in-Github/"/>
@@ -29,5 +43,41 @@
  1 
  $ middleman 
  </summary>
+  </entry>
+  <entry>
+    <title>Lorem ipsum text line</title>
+    <link rel="alternate" href="http://www.lionbox.github.io/2014/09/12/lorem-ipsum-text-line/"/>
+    <id>http://www.lionbox.github.io/2014/09/12/lorem-ipsum-text-line/</id>
+    <published>2014-09-12T17:31:00+01:00</published>
+    <updated>2015-01-29T10:48:08+00:00</updated>
+    <author>
+      <name>LionBox</name>
+    </author>
+    <summary type="html"></summary>
+  </entry>
+  <entry>
+    <title>Date from cmd line</title>
+    <link rel="alternate" href="http://www.lionbox.github.io/2014/05/21/date-from-cmd-line/"/>
+    <id>http://www.lionbox.github.io/2014/05/21/date-from-cmd-line/</id>
+    <published>2014-05-21T00:00:00+01:00</published>
+    <updated>2015-01-28T16:29:58+00:00</updated>
+    <author>
+      <name>LionBox</name>
+    </author>
+    <summary type="html"> Great! 
+
+ middleman article "Date from cmd line" --date=2014-05-21 
+</summary>
+  </entry>
+  <entry>
+    <title>Fake date creation</title>
+    <link rel="alternate" href="http://www.lionbox.github.io/2014/01/28/fake-date-creation/"/>
+    <id>http://www.lionbox.github.io/2014/01/28/fake-date-creation/</id>
+    <published>2014-01-28T16:03:00+00:00</published>
+    <updated>2015-01-28T16:03:58+00:00</updated>
+    <author>
+      <name>LionBox</name>
+    </author>
+    <summary type="html"></summary>
   </entry>
 </feed>
