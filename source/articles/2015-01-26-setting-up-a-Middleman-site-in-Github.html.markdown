@@ -1,9 +1,11 @@
 ---
 title: Setting up a Middleman site in Github
 date: 2015-01-26
-tags: Test
+tags: Test, other, more
 layout: post
 published: true
+
+category: photography, personal,
 
 disqus_identifier: 2015-01-26 Setting up a Middleman site in Github
 disqus_title: Setting up a Middleman site in Github
