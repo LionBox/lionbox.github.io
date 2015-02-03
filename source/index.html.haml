@@ -1,6 +1,6 @@
 ---
 pageable: true
-per_page: 6
+per_page: 3
 ---
 
 %header.main-header{cover}
@@ -15,6 +15,22 @@ per_page: 6
       %h2.page-description= blog_settings.description
   %a.scroll-down.icon-arrow-left{href: '#content', data: {offset: '-45'}}
     %span.hidden Scroll Down
+
+.container
+  .row
+    .col-xs-12
+      / = blog.articles.count
+      %h1 Category photography articles only
+      = partial(:"page_news", :locals => { :category => "Photography", :num => "2" })
+    .col-xs-12
+      / = blog.articles.count
+      %h1 Featured articles only
+      = partial(:page_featured)
+
+
+  .row
+    .col-xs-12
+      %h1 Normal articles Max 3
 
 %main#content.content{role: :main}
   = partial(:page_articles)

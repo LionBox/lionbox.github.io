@@ -1,0 +1,16 @@
+- page_articles.select { |item| item.metadata[:page]["category"] == category}.each_with_index do |article, i|
+  / %h1= article.data.category
+  .jumbotron
+    %h2= article.data.title
+    %p= summary(article)
+    %p
+      %strong Category: 
+      %a.btn.btn-warning.btn-sm.btn-read{:href => "/category/" + article.data.category}
+        = article.data.category
+      %a= article.data.category
+    - author_path
+    %a{href: author_path}= blog_author.name
+    / %a{:href => article.author_url}= article.data.author
+    %p
+      %small= article.date.strftime('%Y, %b %e ')
+    %a.btn.btn-default.btn-lg.btn-read{:href => article.url} Read More

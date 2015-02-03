@@ -1,15 +1,13 @@
 ---
 title: Setting up a Middleman site in Github
 date: 2015-01-26
-tags: Test, other, more
+tags: Test, Other, Article
 layout: post
 published: true
 
-category: photography, personal,
+author: Vir
 
-disqus_identifier: 2015-01-26 Setting up a Middleman site in Github
-disqus_title: Setting up a Middleman site in Github
-disqus_url: http://lionbox.github.io/2015/01/26/setting-up-a-Middleman-site-in-Github/
+category: Article
 ---
 
 Create a Github account without two verification steps.

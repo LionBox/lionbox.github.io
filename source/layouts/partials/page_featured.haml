@@ -1,0 +1,7 @@
+- page_articles.select { |item| item.metadata[:page]["featured"]}.each_with_index do |article, i|
+  %p Featured content only with special design
+  %h2= article.data.title
+  %p= summary(article)
+  %p
+    %small= article.date.strftime('%Y, %b %e ')
+  %a.btn.btn-default.btn-lg.btn-read{:href => article.url} Read More

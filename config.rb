@@ -33,7 +33,7 @@ activate :blog do |blog|
   blog.taglink = "tag/{tag}.html"
   # blog.layout = "layout"
   # blog.summary_separator = /(READMORE)/
-  # blog.summary_length = 250
+  blog.summary_length = 150
   # blog.year_link = "{year}.html"
   # blog.month_link = "{year}/{month}.html"
   # blog.day_link = "{year}/{month}/{day}.html"
@@ -48,6 +48,14 @@ activate :blog do |blog|
   blog.paginate = true
   # blog.per_page = 10
   # blog.page_link = "page/{num}"
+
+  blog.custom_collections = {
+    category: {
+      link: '/category/{category}.html',
+      template: '/category.html'
+    }
+  }
+
 end
 
 set :casper, {
@@ -75,12 +83,11 @@ ignore '/partials/*'
 
 ready do
   blog.tags.each do |tag, articles|
-    proxy "/tag/#{tag.downcase.parameterize}/feed.xml", '/feed.xml', layout: false do
+    proxy "/tags/#{tag.downcase.parameterize}/feed.xml", '/feed.xml', layout: false do
       @tagname = tag
       @articles = articles[0..5]
     end
   end
-
   proxy "/author/#{blog_author.name.parameterize}.html", '/author.html', ignore: true
 end
 

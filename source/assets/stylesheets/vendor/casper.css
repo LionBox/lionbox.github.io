@@ -1209,9 +1209,7 @@ body:not(.post-template) .post-title {
 
 /* The main wrapper for our pagination links */
 .pagination {
-    position: relative;
-    width: 80%;
-    max-width: 710px;
+    width: 63%;
     margin: 4rem auto;
     font-family: "Open Sans", sans-serif;
     font-size: 1.3rem;
@@ -1227,7 +1225,7 @@ body:not(.post-template) .post-title {
 /* Push the previous/next links out to the left/right */
 .older-posts,
 .newer-posts {
-    position: absolute;
+    /*position: absolute;*/
     display: inline-block;
     padding: 0 15px;
     border: #bfc8cd 1px solid;
@@ -1237,7 +1235,7 @@ body:not(.post-template) .post-title {
 }
 
 .older-posts {
-    right: 0;
+    float: right;
 }
 
 .page-number {
@@ -1247,7 +1245,7 @@ body:not(.post-template) .post-title {
 }
 
 .newer-posts {
-    left: 0;
+    float: left;
 }
 
 .older-posts:hover,

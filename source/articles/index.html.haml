@@ -1,3 +1,8 @@
+---
+pageable: true
+per_page: 2
+---
+
 .row
   .container
     %h1.text-center What are you fancing reading?
@@ -26,4 +31,6 @@
       %time.post-date{datetime: article.date.strftime('%Y-%m-%d')}
         = article.date.strftime(blog_settings.date_format)
 
-= partial(:pagination) if paginate
+.row
+  .container
+    = partial(:pagination) if paginate

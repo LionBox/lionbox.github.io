@@ -1,7 +1,7 @@
 ---
 title: Date from cmd line
 date: 2014-05-21 00:00 BST
-tags: Test
+tags: Other
 authors: LionBox
 layout: post
 published: true

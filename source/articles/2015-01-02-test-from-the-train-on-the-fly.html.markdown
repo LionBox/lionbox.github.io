@@ -5,4 +5,6 @@ tags: Test
 authors: LionBox
 layout: post
 published: false
+
+category: Photography
 ---
