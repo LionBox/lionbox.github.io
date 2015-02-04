@@ -7,7 +7,7 @@
 // one that you actually want to include
 // require foundation/js/foundation.min
 //= require bootstrap-sass-official/assets/javascripts/bootstrap.js
-
+//= require search
 //= require application
 //= require kudos
 //= require jquery.royalslider.min

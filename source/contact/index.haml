@@ -1,7 +1,21 @@
-%form{"accept-charset" => "UTF-8", :action => "https://formkeep.com/f/6c0ebfbd99aa", :method => "POST"}
-	%input{:name => "utf8", :type => "hidden", :value => "✓"}/
-	%input{:name => "email", :placeholder => "Your Email", :type => "email"}/
-	%input{:name => "name", :placeholder => "Your Name", :type => "text"}/
-	%input{:name => "url", :placeholder => "Your Website", :type => "url"}/
+.container 
+	.row
+		.col-xs-12
+			%form{"accept-charset" => "UTF-8", :action => "https://formkeep.com/f/6c0ebfbd99aa", :method => "POST"}
+			%input{:name => "utf8", :type => "hidden", :value => "✓"}/
+			%input{:name => "email", :placeholder => "Your Email", :type => "email"}/
+			%input{:name => "name", :placeholder => "Your Name", :type => "text"}/
+			%input{:name => "url", :placeholder => "Your Website", :type => "url"}/
 
-	%button.btn.btn-primary{:type => "submit"} Submit
+			%button.btn.btn-primary{:type => "submit"} Submit
+
+.container 
+	.row
+		.col-xs-12
+			%form
+			%input.search-term{:placeholder => "example: lorem ipsem", :required => "required", :type => "search"}/
+			%input.search-submit{:type => "submit", :value => "Go"}/
+
+	.row
+		.col-xs-12
+			.search-results
