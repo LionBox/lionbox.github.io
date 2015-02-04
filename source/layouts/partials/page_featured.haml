@@ -1,3 +1,8 @@
+---
+pageable: false
+per_page: 1
+---
+
 - page_articles.select { |item| item.metadata[:page]["featured"]}.each_with_index do |article, i|
   %p Featured content only with special design
   %h2= article.data.title
