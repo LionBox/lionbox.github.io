@@ -38,6 +38,7 @@ activate :blog do |blog|
   # blog.month_link = "{year}/{month}.html"
   # blog.day_link = "{year}/{month}/{day}.html"
   # blog.default_extension = ".markdown"
+  blog.default_extension = ".markdown.erb"
   
   blog.new_article_template = "source/layouts/template-article.haml"
 
